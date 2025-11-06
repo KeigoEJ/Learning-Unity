@@ -1,0 +1,76 @@
+# =======================================
+# Unity .gitignore
+# =======================================
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# User-specific
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.tmp
+*.unityproj
+*.booproj
+
+# Unity generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+Assets/AssetStoreTools*
+sysinfo.txt
+
+# Visual Studio / Rider / VSCode
+.vs/
+.idea/
+.vscode/
+
+# Unity crash reports
+CrashReports/
+*.stacktrace
+
+# Cache and artifacts
+*.apk
+*.aab
+*.obb
+*.manifest
+*.mdb
+*.pdb
+
+# Auto-generated files
+*.unitypackage
+*.orig
+*.bak
+
+# Addressables / StreamingAssets cache
+/[Aa]sset[Bb]undles/
+StreamingAssets/aa/
+StreamingAssets/AssetBundles/
+StreamingAssets/Cache/
+
+# Collaborate / PlasticSCM (optional)
+.collabignore
+.plastic/
+PlasticWorkspaceInfo.txt
+
+# Build pipeline
+[Bb]uilds*/
+[Bb]uild/
+
+# JetBrains Rider
+.idea/
+
+# Local packages
+/[Pp]ackages/com.unity.package-manager-do-not-modify/
+
+# Ignore test results
+TestResults/
